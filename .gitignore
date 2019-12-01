@@ -1,0 +1,60 @@
+
+jft/*
+gradle/wrapper
+.DS_Store
+*.ipr
+.project
+.classpath
+.settings
+usage.statistics.xml
+tasks.xml
+.class
+allure-report
+target
+.allure/
+allure-results/
+
+
+
+# File-based project format
+*.iws
+
+# IntelliJ
+.idea
+out
+
+### Java ###
+# Compiled class file
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Gradle ###
+.gradle
+build
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+### Gradle Patch ###
+.gradle/4.4
+.gradle/4.10.2
+out/test/classes/com/ls/battle/tests/*.class
