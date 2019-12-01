@@ -2,6 +2,7 @@
 You can set up a specific browser by adding -D options to CLI commands:**
 
 -Dbrowser=chrome
+
 -Dbrowser=firefox`
 
 
